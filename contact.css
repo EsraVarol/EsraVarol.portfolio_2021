@@ -1,0 +1,22 @@
+h3{font-family:'Oswald', sans-serif; font-size: 1.6rem; margin: 60px 60px 20px}
+
+main a{text-decoration: none; color:#5481AF; margin-top: 0px;}
+
+.Home{color:#E6FDFF;}
+.EsraVarol{color:#E6FDFF;}
+.Contact{color: black;}
+
+main{height: 250vh;}
+.esra{margin: 5rem 60px 5rem ;
+      width: 75VW;}
+main{height: 100vh;}
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+	@media (min-width: 60rem) {
+
+main{height: 100vh;}
+main img{width: 2vw;}
+
+
+    }}

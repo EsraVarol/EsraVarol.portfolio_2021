@@ -1,0 +1,29 @@
+.Home{color:#E6FDFF;}
+.EsraVarol{color:#E6FDFF;}
+.Contact{color:#E6FDFF;}
+.Projecten{color: black;}
+
+MAIN h4{font-family:'Anton', sans-serif; font-size: 5rem; padding: 1rem; }
+
+.webdesign{background-color: #06070E; color:#AFD0BF; }
+.illustrator{background-color: #79B791; color:black; }
+.photoshop{background-color: #79B791;color: #2B4141;}
+.fotografie{background-color:#A5C4D4;color: #2B4141;}
+.grafischdesign{background-color: #A5C4D4; color: black;}
+.video-animatie{background-color: #06070E;color:#AFD0BF;}
+
+main a{text-decoration: none;}
+MAIN{ background-color: #5481AF;}
+@supports (grid-area: auto) {
+ /* we weten hier: ondersteuning voor grid-layout */
+
+ @media (min-width: 60rem) {
+.griddiv{display: grid; grid-template-columns: 50vw 50vw; grid-template-rows: 1fr 1fr 1fr;}
+  .webdesign{grid-column: 1; grid-row: 1; height: 20vh}
+  .illustrator{grid-column: 2; grid-row: 1; height: 20vh}
+  .fotografie{grid-column: 1; grid-row: 2; height: 20vh}
+  .photoshop{grid-column: 2; grid-row: 1; height: 20vh}
+  .grafischdesign{grid-column: 1; grid-row: 3; height: 20vh}
+  .video-animatie{grid-column: 2; grid-row: 3; height: 20vh} }}
+main{height: 0vh; width: 100vw;}
+body{ background-color: #5481AF}

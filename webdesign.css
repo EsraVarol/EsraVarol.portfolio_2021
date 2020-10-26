@@ -1,0 +1,90 @@
+.titel{background-color: #A5C4D4;}
+
+.Home{color:#E6FDFF;}
+.EsraVarol{color:#E6FDFF;}
+.Contact{color:#E6FDFF;}
+.Projecten{color: black;}
+
+.menu {
+  position:fixed;
+  top: 11rem;
+  border-radius: 0.5rem;
+   border:0.1 solid #EAF0CE;
+  right: -1.8rem;
+
+
+}
+
+h6{font-family:'Oswald', sans-serif; margin-left: 60px;margin-top: 20px; font-size: 2rem;}
+h5{font-size: 1.2rem;}
+
+a{color:black; text-decoration: none;}
+.projectennav {
+  display: none;
+  flex-direction: column;
+  background-color: #8DAA9D;
+
+}
+.webdesign{color: darkred;}
+.projectennav a {
+  margin-bottom: 1rem;
+  text-decoration: none;
+
+  font-size: 2rem;
+  margin:1rem;
+  font-family:'Oswald', sans-serif;
+}
+
+.illustrator{color: black;}
+.fotografie{color: black;}
+.video-animatie{color: black;}
+.grafischdesign{color: black;}
+.photoshop{color: black;}
+h5{font-family: 'Oswald', sans-serif; width: 100vw;}
+
+
+
+.een,.twee,.drie,.vier,.vijf,.zes{width: 20vw; height: auto; margin-top: 30px; margin: 10px 60px;}
+main img{margin: 50px auto 50px;}
+
+
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+  @media (min-width: 60rem) {
+
+
+.MASONRY{
+    -webkit-column-count: 3;
+  -moz-column-count:3;
+  column-count: 3;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+   margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+	-webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .MASONRY {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+}}

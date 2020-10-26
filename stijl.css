@@ -1,0 +1,136 @@
+
+
+header{background-color: #E6FDFF;
+			 width: 100vw;}
+
+header img{padding: 1.5rem 60px;}
+
+header nav a{text-decoration: none; }
+
+ul {text-align: right; width: 100%;  height: 10px; padding-right: 20px; padding-bottom: 30px; }
+  li {float: right;}
+  ul a {color: #E6FDFF; padding: 0 15px 0 15px; text-decoration: none; font-family: 'Open Sans', sans-serif; font-size: 1.3rem;}
+  ul a:hover {color: darkred;}
+
+
+
+
+header nav{background-color:#C3DBC5;
+				   background-image: linear-gradient(-45deg,#5481AF,#5481AF,#E6FDFF);
+					 padding-top: 1rem;}
+
+.Home{color:black;}
+.gotopr h1{text-decoration: none; background-color:#2B4141;}
+.gotopr{text-decoration: none;}
+main{
+
+
+
+		background-image: linear-gradient(45deg, White,white, #E6FDFF);
+
+	 background-size:contain;
+ 	 }
+
+
+main h1{font-family: 'Oswald', sans-serif; font-size: 6rem; padding-bottom: 20px; padding-top: 20px; background-color: #5481AF;
+ width: 100vw; padding-left:60px; color:white; }
+
+
+
+main p{font-family: 'Open Sans', sans-serif; font-size: 1.5rem; line-height: 20px; margin-left: 60px; margin-top: 20px; margin-right: 60px; }
+
+.Welkom{
+						width: 100vw;
+
+						}
+
+
+
+ .homepage1{margin-top: 10px; margin: 10px 60px;}
+
+
+.copyright{ font-size: 1rem; }
+
+.footer a {text-decoration: none; color: white; line-height: 30px}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100vw;
+background-color: #5481AF;
+color: white;
+text-align: center;
+font-family:'Open Sans', sans-serif;
+align-items: center; padding: 1rem;
+}
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+	@media (min-width: 60rem) {
+		header{background-color: #E6FDFF;
+					 width: 100%;}
+
+		header img{padding: 1.5rem 60px;}
+
+		header nav a{text-decoration: none; }
+
+		ul {text-align: right; width: 100%;  height: 10px; padding-right: 50px; padding-bottom: 30px; }
+		  li {float: right;}
+		  ul a {color: #E6FDFF; padding: 0 20px 0 20px; text-decoration: none; font-family: 'Open Sans', sans-serif; font-size: 1.8rem;}
+		  ul a:hover {color: darkred;}
+
+.gotopr h1{text-decoration: none; background-color: #2B4141;}
+		header nav{background-color:#C3DBC5;
+						   background-image: linear-gradient(-45deg,#5481AF,#5481AF,#E6FDFF,#E6FDFF,#E6FDFF);
+				padding-top: 1rem;}
+
+		.Home{color:black;}
+
+		main{
+
+				width: 100%;
+
+				background-image: linear-gradient(45deg, White,white, #E6FDFF);
+
+			 background-size:contain;
+		 	 }
+
+
+		main h1{font-family: 'Oswald', sans-serif; font-size: 6rem; padding-bottom: 20px; padding-top: 20px; background-color: #5481AF;
+		 width: 100%; padding-left:60px;color:white; }
+
+
+
+		main p{font-family: 'Open Sans', sans-serif; font-size: 1.5rem; line-height: 20px; margin-left: 60px; margin-top: 20px; margin-right: 60px; grid-column: 1; grid-row: 1;}
+
+		.Welkom{
+								width: 100%;
+								height: 100%;
+								}
+		.grid{display: grid;
+					grid-template-columns: 2fr 1fr; grid-template-rows: 1fr; }
+
+
+		 .homepage1{width: 20vw; grid-column: 2; margin-top: 20px; align-items: right;}
+		.copyright{ font-size: 1rem; }
+
+
+
+		.footer a {text-decoration: none; color: white; line-height: 30px}
+
+		.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5481AF;
+  color: white;
+  text-align: center;
+	font-family:'Open Sans', sans-serif;
+	align-items: center; padding: 1rem;
+}
+
+	}
+
+}

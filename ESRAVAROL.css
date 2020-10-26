@@ -1,0 +1,32 @@
+.Home{color:#E6FDFF; width: 100vw}
+.EsraVarol{color:black;}
+
+main{height: 250vh; width: 100vw}
+.esra{margin: 50px 60px 5rem ;
+      width: 75VW;
+      margin-top: 10px; }
+header{width: 100vw;}
+h2{font-family: 'Oswald', sans-serif; font-size: 6rem; padding-bottom: 20px; padding-top: 20px;
+ width: 100vw; padding-left:60px; background-color: #E6FDFF;}
+.opleidingen{width: 90%;margin-left: 30px;}
+ .esrol{width:50% ;margin-top: 10px; margin: 10px 60px;}
+
+ @supports (grid-area: auto) {
+ 	/* we weten hier: ondersteuning voor grid-layout */
+
+ 	@media (min-width: 40rem) {
+main{height: 130vh;}
+.esra{width: 30%;  margin-top: 20px; }
+.esrol{width:40%;}
+
+    }}
+    @supports (grid-area: auto) {
+    	/* we weten hier: ondersteuning voor grid-layout */
+
+    	@media (min-width: 60rem) {
+
+.esra{width: 20%; margin-top: 20px; }
+.opleidingen{width: 65%;margin-left: 10px; grid-column: 2; margin-top: 10px; align-items: right; }
+.vaardigheden{ grid-column: 2; margin-top: 20px; align-items: right;}
+        }}
+.esrol{width:30%;}
