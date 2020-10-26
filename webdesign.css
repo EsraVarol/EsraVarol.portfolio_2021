@@ -45,13 +45,13 @@ h5{font-family: 'Oswald', sans-serif; width: 100vw;}
 
 
 .een,.twee,.drie,.vier,.vijf,.zes{width: 20vw; height: auto; margin-top: 30px; margin: 10px 60px;}
-main img{margin: 50px auto 50px;}
+main img{margin: 50px auto 50px; width: 80%;}
 
 
 @supports (grid-area: auto) {
 	/* we weten hier: ondersteuning voor grid-layout */
   @media (min-width: 60rem) {
-
+main img{width: 100%;}
 
 .MASONRY{
     -webkit-column-count: 3;
