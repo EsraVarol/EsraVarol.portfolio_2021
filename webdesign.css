@@ -5,7 +5,15 @@
 .Contact{color:#E6FDFF;}
 .Projecten{color: black;}
 
+.menu {
+  position:fixed;
+  top: 11rem;
+  border-radius: 0.5rem;
+   border:0.1 solid #EAF0CE;
+  right:20rem;
 
+
+}
 main{width: 100%;}
 
 h6{font-family:'Oswald', sans-serif; margin-left: 60px;margin-top: 20px; font-size: 2rem;}
