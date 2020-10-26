@@ -37,8 +37,8 @@ header{width: 100vw;}
 .grafischdesign{color: black;}
 .photoshop{color: black;}
 
-.een,.twee,.drie,.vier,.vijf,.zes,.zeven{ height: auto; margin-top: 30px; margin: 10px 60px;}
-main img{margin: 50px auto 50px; width: 15%;}
+.een,.twee,.drie,.vier,.vijf,.zes,.zeven{width: 20vw; height: auto; margin-top: 30px; margin: 10px 60px;}
+main img{margin: 50px auto 50px;}
 
 
 h5{font-family: 'Oswald', sans-serif; width: 100vw; font-size: 1.2rem;}
