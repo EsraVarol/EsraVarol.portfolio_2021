@@ -45,7 +45,7 @@ h5{font-family: 'Oswald', sans-serif; width: 100vw;}
 
 
 .een,.twee,.drie,.vier,.vijf,.zes{width: 20vw; height: auto; margin-top: 30px; margin: 10px 60px;}
-main img{margin: 50px auto 50px; width: 80%;}
+main img{margin: 50px auto 50px; width: 90%;}
 
 
 @supports (grid-area: auto) {
