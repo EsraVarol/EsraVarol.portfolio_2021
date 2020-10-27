@@ -52,7 +52,7 @@ main img{margin: 50px auto 50px;}
 	/* we weten hier: ondersteuning voor grid-layout */
   @media (min-width: 60rem) {
 
-
+main img{width: 400;}
 .MASONRY{
     -webkit-column-count: 3;
   -moz-column-count:3;
