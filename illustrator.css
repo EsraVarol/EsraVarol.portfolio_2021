@@ -46,25 +46,7 @@ header{width: 100%;}
 	/* we weten hier: ondersteuning voor grid-layout */
   @media (min-width: 60rem) {
 
-
-
-}
-
-
-@media only screen and (min-width: 600px) and (max-width: 768px){
-
-main{display: grid; grid-template-columns: 1fr 1fr; background-color: yellow;}
-}
-
-
-
-@media only screen and (min-width: 769px) and (max-width: 1500px){
+    main{display: grid; grid-template-columns: 1fr 1fr; background-color: yellow;}
+    }
 
 }
-
-@media only screen and ( (min-width: 1500px) {
-
-}
-
-
-}}
