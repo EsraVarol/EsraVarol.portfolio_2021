@@ -46,7 +46,7 @@ h5{font-family: 'Oswald', sans-serif; width: 100vw;}
 
 
 
-main img{margin: 50px auto 50px;}
+main img{margin: 50px auto 50px; margin-left: 10px;}
 
 
 @supports (grid-area: auto) {
