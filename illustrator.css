@@ -1,4 +1,5 @@
-.titel{background-color: #79B791; }
+.titel{background-color: #79B791; font-family: 'Oswald', sans-serif; font-size: 6rem; padding-bottom: 20px; padding-top: 20px;
+ width: 100vw; padding-left:60px; color:white;margin-bottom: 0;}
 header{width: 100%;}
 .Home{color:#E6FDFF;}
 .EsraVarol{color:#E6FDFF;}
