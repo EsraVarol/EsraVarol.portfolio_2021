@@ -17,7 +17,7 @@
 }
 
 
-h5{font-size: 1.05rem;}
+h5{font-size: 0.9rem;}
 
 a{color:black; text-decoration: none;}
 .projectennav {
@@ -54,6 +54,7 @@ main img{margin: 50px auto 50px; margin-left: 10px;}
   @media (min-width: 60rem) {
 
 
+    h5{font-size: 1.2rem;}
 .MASONRY{
     -webkit-column-count: 3;
   -moz-column-count:3;
