@@ -53,6 +53,7 @@ header{width: 100%;}
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
 
+main{display: grid; grid-template-columns: 1fr 1fr; background-color: yellow;}
 }
 
 
